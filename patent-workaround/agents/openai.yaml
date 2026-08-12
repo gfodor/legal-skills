@@ -1,0 +1,4 @@
+interface:
+  display_name: "Patent Workaround"
+  short_description: "Pressure-test patent scope against design-arounds"
+  default_prompt: "Use $patent-workaround to pressure-test this patent draft against credible workarounds and safely strengthen its claims and disclosure."

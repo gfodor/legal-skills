@@ -1,0 +1,75 @@
+# Copy this file into the run directory and replace null values. Do not infer facts.
+run:
+  examination_date: null
+  jurisdiction: US
+  target_independent_clearances: 2
+  editable_ground_truth_path: null
+  preserve_original_path: null
+
+application:
+  type: utility_nonprovisional
+  status: draft_pre_filing  # draft_pre_filing | pending | other
+  application_number: null
+  filing_date: null
+  planned_nonprovisional_filing_date: null
+  title: null
+  specification_path: null
+  claims_path: null
+  abstract_path: null
+  drawings_path: null
+  sequence_listing_path: null
+  other_components: []
+
+priority_and_continuity:
+  aia_or_pre_aia: null
+  earliest_claimed_priority_date: null
+  effective_filing_date_by_claim_or_subject_matter: null
+  provisional_applications: []
+  foreign_priority_applications: []
+  parent_continuation_divisional_cip_applications: []
+  priority_documents_and_translations: []
+
+parties_and_disclosures:
+  inventors: []
+  applicant: null
+  assignee_or_obligation_to_assign: null
+  joint_research_agreement: null
+  inventor_public_disclosures: []
+  third_party_disclosures: []
+  public_uses_sales_offers_and_other_bar_events: []
+  duty_of_disclosure_inputs_complete: false
+
+prosecution_record:
+  prior_office_actions: []
+  amendments_and_responses: []
+  interview_summaries: []
+  ids_and_cited_references: []
+  related_us_and_foreign_prosecution: []
+  restriction_or_election_history: []
+  terminal_disclaimers_or_double_patenting_material: []
+
+search_and_evidence:
+  existing_search_reports: []
+  known_patent_references: []
+  known_non_patent_references: []
+  product_and_public_use_evidence: []
+  declarations_test_data_and_unexpected_results: []
+  search_databases_available: []
+  inaccessible_or_confidential_material: []
+
+technical_context:
+  field_and_problem: null
+  asserted_inventive_concepts: []
+  posita_skill_level_and_evidence: null
+  technical_advantages_and_evidence: []
+  working_examples_or_prototypes: []
+  claim_terms_needing_construction: []
+  supported_fallback_positions: []
+
+objectives:
+  indispensable_commercial_scope: []
+  acceptable_narrowing: []
+  unacceptable_narrowing: []
+  desired_claim_classes_and_fallback_sets: []
+
+missing_or_uncertain_facts: []

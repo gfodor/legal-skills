@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "generated_at": null,
+  "application_version": null,
+  "raw_evidence_files": [],
+  "missing_or_inaccessible_evidence": [],
+  "notes": "For every raw evidence file inside the deterministic evidence bundle, record a stable internal path, SHA-256, byte size, source, date, confidentiality, and purpose. Exclude this manifest and the enclosing bundle from raw_evidence_files to avoid an impossible self-hash. The state tool records the enclosing bundle's actual hash."
+}

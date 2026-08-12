@@ -1,0 +1,4 @@
+interface:
+  display_name: "Patent Audit"
+  short_description: "Audit a draft patent application before filing"
+  default_prompt: "Use $patent-audit to audit my draft patent application before I file it."

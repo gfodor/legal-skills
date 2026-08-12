@@ -1,0 +1,89 @@
+# Pre-filing patent audit — intake facts
+#
+# Parts A, C and D of the checklist ask about things that are NOT in the draft.
+# Without these the audit cannot answer them, and an audit that guesses a
+# disclosure date is worse than no audit.
+#
+# Leave a value as `null` if genuinely unknown. Never guess. Anything left null
+# produces a `cannot_assess` verdict, which is the correct and honest outcome.
+
+# ---------------------------------------------------------------- the filing
+planned_filing_date: null          # YYYY-MM-DD
+application_type: utility          # utility | design | plant
+entity_status: null                # large | small | micro
+entity_status_basis: null          # why the applicant qualifies (headcount, income, prior filings)
+
+# ------------------------------------------------- disclosure and bar dates
+# The most consequential facts in the whole audit. Every "public" event counts:
+# a conference talk, a paper, a web page, a Kickstarter, a trade-show demo, a
+# quote to a customer, a sale, a beta release. Experimental use may be excepted.
+first_public_disclosure_date: null # YYYY-MM-DD — earliest of ANY public disclosure
+first_public_disclosure_what: null # what was disclosed, to whom, under what terms
+first_offer_for_sale_date: null
+first_public_use_date: null
+disclosure_made_by: null           # inventor | obtained_from_inventor | third_party | none
+                                   # decisive post-AIA: only inventor-derived
+                                   # disclosures get the one-year grace period
+all_disclosures_under_nda: null    # true | false — an NDA'd disclosure is not public
+
+# --------------------------------------------------------------- inventorship
+# Name every person who contributed to the CONCEPTION of at least one claim.
+# Not people who only built or tested to instruction, and not the person who
+# paid for it. Both over- and under-naming can invalidate the patent.
+inventors:
+  - name: null
+    contribution: null             # which claim(s), and what they conceived
+    citizenship: null
+    employer_at_conception: null
+    has_assignment_obligation: null    # true | false | unknown
+    employed_to_invent: null           # true | false — shop-right exposure
+    used_employer_resources: null      # true | false
+
+# ------------------------------------------------------------------ ownership
+applicant: null                    # who applies: inventor(s) or an assignee entity
+assignment_executed: null          # true | false
+assignment_recorded: null          # true | false
+joint_owners_agreement: null       # true | false | n/a — each co-owner can
+                                   # otherwise license the whole patent alone
+
+# ------------------------------------------------------- earlier applications
+ppa_filing_date: null              # YYYY-MM-DD if claiming provisional priority
+ppa_file: null                     # path to the PPA text — needed to verify the
+                                   # regular application's claims are supported
+parent_filing_date: null           # YYYY-MM-DD for a continuation/divisional/CIP
+parent_file: null                  # path to parent text
+parent_status: null                # pending | issued | abandoned — copendency
+relationship_to_parent: null       # continuation | divisional | cip | none
+adds_new_matter_over_parent: null  # true | false — CIP claims to new matter lose
+                                   # the parent's priority date
+
+# ---------------------------------------------------------------- foreign
+foreign_filing_intended: null      # true | false | undecided
+foreign_countries: []              # e.g. [EP, JP, CN, KR]
+nonpublication_request_planned: null  # true | false — CONFLICTS with foreign
+                                      # filing; the two are mutually exclusive
+foreign_inventors_or_work_abroad: null # true | false — foreign filing licence
+
+# ----------------------------------------------------------------- prior art
+search_performed: null             # true | false
+search_report_file: null           # path to the search report
+search_performed_by: null          # self | professional searcher | attorney
+searched_non_patent_literature: null   # true | false
+searched_foreign_patents: null         # true | false
+closest_prior_art: []              # identifiers of the closest references found
+prior_art_files: []                # paths to full texts of key references
+
+# ------------------------------- duty of candour (cannot be checked from docs)
+# This is the one item no document review can verify. It depends on what the
+# inventor personally knows and can only be established by asking them.
+inventor_aware_of_other_art: null  # true | false — anything the inventor knows of
+                                   # that is material: their own earlier work, a
+                                   # competitor's product, a paper they read, art
+                                   # cited in a related application
+other_art_known: []                # list everything, however unwelcome
+ids_prepared: null                 # true | false
+
+# ------------------------------------------------------------------ artifacts
+draft_file: null                   # path to the specification/claims
+drawings: null                     # path to a drawings PDF or a directory of images
+forms_packet: null                 # path to ADS/declaration/transmittal/IDS if drafted

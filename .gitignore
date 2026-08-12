@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.Python
+.venv/
+venv/
+.env
+*.egg-info/
+.DS_Store
+Thumbs.db
+audit_run/
+examination_run/
+workaround_run/

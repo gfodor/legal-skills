@@ -1,0 +1,4 @@
+interface:
+  display_name: "Patent Examine"
+  short_description: "Iterative simulated USPTO examination"
+  default_prompt: "Use $patent-examine to iteratively examine and revise this U.S. utility patent application until two fresh examiners independently find the same version allowable."

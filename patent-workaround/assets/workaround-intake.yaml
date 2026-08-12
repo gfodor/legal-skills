@@ -1,0 +1,99 @@
+# Copy into the run directory and replace null values. Do not infer facts.
+run:
+  analysis_date: null
+  jurisdiction: US
+  editable_ground_truth_path: null
+  preserve_original_path: null
+  evidence_manifest_path: null
+  confidential_search_restrictions: []
+
+application:
+  type: utility_nonprovisional
+  status: draft_pre_filing  # draft_pre_filing | pending | issued | other
+  title: null
+  application_or_patent_number: null
+  filing_date: null
+  planned_filing_date: null
+  specification_path: null
+  claims_path: null
+  abstract_path: null
+  drawings_path: null
+  appendices_and_other_components: []
+
+priority_and_prosecution:
+  aia_or_pre_aia: null
+  claimed_priority_and_benefit: []
+  effective_filing_date_by_claim_or_subject_matter: null
+  parent_child_and_related_cases: []
+  office_actions: []
+  amendments_and_responses: []
+  interview_summaries: []
+  cited_references_and_ids_materials: []
+  restriction_election_double_patenting_history: []
+  disclaimers_estoppel_or_scope_surrender: []
+
+parties_and_disclosures:
+  inventors: []
+  applicant: null
+  assignee_and_common_ownership: []
+  obligations_to_assign: []
+  joint_research_agreements: []
+  inventor_or_inventor_derived_disclosures: []
+  third_party_disclosures: []
+  public_uses: []
+  sales_and_offers_for_sale: []
+  other_potential_bar_events: []
+  duty_of_disclosure_inputs_complete: false
+  potentially_material_information_routed_to_counsel: []
+  unresolved_ids_or_disclosure_triage: []
+
+invention_thesis:
+  target_users_and_buyers: []
+  value_proposition: null
+  motivating_problem: null
+  prior_approach_shortcomings: []
+  design_objectives: []
+  technical_constraints_and_tradeoffs: []
+  asserted_inventive_mechanisms: []
+  required_features: []
+  optional_features: []
+  supported_generalizations_and_alternatives: []
+  indispensable_commercial_scope: []
+  acceptable_deliberate_gaps: []
+
+deployed_or_prototyped_solution:
+  status: none  # none | concept | prototype | deployed
+  products_or_versions: []
+  architecture_and_components: null
+  actors_and_control_boundaries: []
+  process_steps_and_timing: []
+  data_material_energy_or_signal_flows: []
+  substitutes_and_optional_modes: []
+  performance_cost_reliability_or_regulatory_facts: []
+  evidence_paths: []
+
+inventor_evidence:
+  inventors: []
+  inventor_confirmed_facts: []
+  contemplated_alternatives: []
+  experiments_prototypes_and_results: []
+  facts_requiring_inventor_confirmation: []
+
+search_and_market_context:
+  existing_search_reports: []
+  closest_patent_references: []
+  closest_non_patent_references: []
+  known_competitor_products_and_approaches: []
+  standards_and_regulatory_materials: []
+  search_databases_available: []
+  public_search_authorized_for_confidential_concepts: false
+
+business_decisions:
+  non_negotiable_outcomes: []
+  acceptable_performance_or_cost_tradeoffs: []
+  unacceptable_scope_narrowing: []
+  desired_claim_classes_and_actor_coverage: []
+  known_workarounds_to_test: []
+  counsel_decisions_or_constraints: []
+
+missing_or_uncertain_facts: []
