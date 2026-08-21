@@ -513,7 +513,7 @@ Grounded in 35 U.S.C. §§ 101, 102, 103, 112; 37 CFR 1.75; MPEP 608.01(i)–(n)
 - **Primary source:** 35 U.S.C. § 271; *Limelight v. Akamai*; MPEP does not decide infringement — flag as a drafting defect.
 
 ### `G61` Software inventions include a tangible, non-transitory computer-readable medium claim
-- **Check:** Verify a software invention is claimed not only as a method and machine but also as a manufacture — a tangible, non-transitorily encoded medium — with a mirrored set of dependents.
+- **Check:** Verify a software invention is claimed not only as a method and machine but also as a manufacture — a tangible, non-transitory encoded medium — with a mirrored set of dependents.
 - **Severity:** Serious
 - **Applies to:** software/business method
 - **What to look for:** Recite both "tangible" and "non-transitory" (or current equivalent). A claim to a bare signal is unpatentable (*Nuijten*). Dependents copied from the method set must be re-preambled; leftover "The method of claim X" is a common paste error.
