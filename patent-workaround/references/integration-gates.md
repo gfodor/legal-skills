@@ -207,7 +207,7 @@ Before promoting a candidate, require:
 - coverage ledger with every finding dispositioned;
 - inventor/applicant decisions on commercial tradeoffs;
 - full render and mechanical checks;
-- exact packet hash matching the reviewed candidate.
+- exact packet hash matching the reviewed candidate;
 - no unresolved potentially material information awaiting counsel/IDS/timing triage.
 
 A promise to draft or verify later is not a promotable candidate.
