@@ -53,7 +53,7 @@ find 19 of 20 numerals and report "all consistent."
 **Silence is not a pass.** Every item ends as `pass`, `fail`, `cannot_assess`,
 `not_applicable`, or `not_reached`. An agent that omits an item has not passed it.
 
-**`cannot_assess` is a correct answer.** Some items — the duty of candour above all
+**`cannot_assess` is a correct answer.** Some items — the duty of candor above all
 — cannot be established from any document. Guessing is worse than admitting.
 
 ---
